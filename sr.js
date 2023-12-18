@@ -93,7 +93,7 @@ sh.addDevice(new Alarm("HomeAlarm"))
 sh.getDevices().forEach(device => {
     device.on()
 })
-//
+
 sh.getDeviceByName("BedroomBlinds").raise()
 sh.getDeviceByName("LivingRoomLamp").changeBrightness(50)
 sh.offAllDevice()
